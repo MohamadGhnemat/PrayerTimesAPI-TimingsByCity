@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prayer Times API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+   
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="city-name">رام الله</h1>
+      <h6 id="date">الجمعة-Sep 2022 23</h6>
+      <div class="prayers">
+        <div class="prayer prayer1">
+          <span>الفجر</span>
+          <h3 id="fajr-time">04:26</h3>
+        </div>
+        <div class="prayer prayer2">
+          <span>الشروق</span>
+          <h3 id="sunrise-time">05:42</h3>
+        </div>
+        <div class="prayer prayer3">
+          <span>الظهر</span>
+          <h3 id="dhuhr-time">11:46</h3>
+        </div>
+        <div class="prayer prayer4">
+          <span>العصر</span>
+          <h3 id="asr-time">15:12</h3>
+        </div>
+        <div class="prayer prayer5">
+          <span>المغرب</span>
+          <h3 id="sunset-time">17:49</h3>
+        </div>
+        <div class="prayer prayer6">
+          <span>العشاء</span>
+          <h3 id="isha-time">19:19</h3>
+        </div>
+      </div>
+    
+        <select id="cities-select" ">
+        
+        </select>
+        
+     
+    </div>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

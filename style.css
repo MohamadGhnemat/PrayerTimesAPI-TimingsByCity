@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(to right, #c33764, #1d2671);
+  direction: rtl;
+  font-family: "Tajawal", sans-serif;
+}
+.container {
+  width: 97%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+h1 {
+  color: white;
+  font-size: 100px;
+  font-weight: 400;
+}
+h6 {
+  color: white;
+  font-size: 26px;
+  border-bottom: 1px solid rgb(173, 168, 168);
+  padding-bottom: 5px;
+  font-weight: 200;
+}
+.prayers {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+  padding: 40px 0;
+}
+.prayers .prayer {
+  background-color: white;
+  width: 170px;
+}
+
+.prayers .prayer span {
+  background: linear-gradient(45deg, #5709ee, #7a37bf);
+  display: block;
+  width: 100%;
+  color: white;
+  font-size: 26px;
+  padding: 7px;
+}
+.prayers .prayer h3 {
+  font-size: 40px;
+  text-align: center;
+  padding: 40px 0;
+}
+
+select {
+  margin-top: 10px;
+  width: 300px;
+  background-color: transparent;
+  border-radius: 30px;
+  align-self: center;
+  color: whitesmoke;
+  padding: 5px;
+  font-family: "Tajawal", sans-serif;
+  font-size: 20px;
+}
+
+option {
+  color: black;
+}
